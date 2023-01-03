@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
-cout << "column1"<<'/t' << "columna2" << endl;
+cout << "column1"<<'\t' << "columna2" << endl;
 //te falto las comillas y este simbolo <<
+//Cambie el slash de / a \ antes de la t
 return 0;
 
 }
