@@ -1,0 +1,26 @@
+Miguel A Arroyo
+//  This program prints "You Pass" if a student's average is
+//  60 or higher and prints "You Fail" otherwise
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+float average; // Marcamos la variable para usarse en cin y utilizamos float de ser necesario numero decimal.
+
+cout <<"Insert your average"<< endl; //Utilizamos el Cout para enviar el mensaje de instruccion al monitor.
+cin >>average; //Colocamos Cin para entrar el dato a analizar.
+if (average >= 60)
+{
+cout <<"You Pass"<< endl;
+}
+else if (average <60)
+{
+cout <<"You Fail"<< endl;    
+}
+
+return 0;
+
+
+}
